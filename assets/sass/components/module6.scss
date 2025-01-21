@@ -1,0 +1,32 @@
+.design8 {
+  .module6 {
+    padding-top: 20px;
+    &__image {
+      margin-bottom: 20px;
+    }
+    &__message {
+      margin-bottom: 64px;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      margin-bottom: 35px;
+    }
+    &__block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 16px 15px 20px;
+      border-bottom: 1px solid #cecece;
+      font-family: var(--four-family);
+      font-weight: 350;
+      font-size: 20px;
+      color: #333;
+      letter-spacing: 0.2px;
+      @include media('sm') {
+        padding: 16px 10px 15px 10px;
+      }
+    }
+  }
+}

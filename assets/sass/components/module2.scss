@@ -1,0 +1,19 @@
+.design8 {
+    .module2 {
+        padding-top: 12px;
+        padding-bottom: 25px;
+        &__image {
+            margin-bottom: 10px;
+        }
+        &__message {
+            color: #717171;
+        }
+        &__message:last-child {
+            margin-bottom: 30px;
+        }
+        .module2__message + .module2__message {
+            padding-top: 16px;
+            margin-bottom: -10px;
+        }
+    }
+}
