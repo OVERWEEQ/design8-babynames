@@ -8,7 +8,7 @@
         &__message {
             color: #717171;
         }
-        &__message:last-child {
+        &__message:last-of-type {
             margin-bottom: 30px;
         }
         .module2__message + .module2__message {
