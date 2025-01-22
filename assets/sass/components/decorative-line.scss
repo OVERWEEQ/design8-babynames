@@ -1,7 +1,11 @@
 .design8 {
     .decorative-line {
-        width: 100%;
+        width: calc(100% - 32px);
+        margin: 0 auto;
         height: 1px;
-        background: #c9a3ee;
+        background: #3CC1FF;
+        &__purple {
+            background: #C9A3EE;
+        }
     }
 }
